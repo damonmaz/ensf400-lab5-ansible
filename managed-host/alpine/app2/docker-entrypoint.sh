@@ -9,7 +9,7 @@ DAEMON=sshd
 # Copy default config from cache
 if [ ! "$(ls -A /etc/ssh)" ]; then
     cp -a /etc/ssh.cache/* /etc/ssh/
-fi
+fi1
 
 set_hostkeys() {
     printf '%s\n' \
